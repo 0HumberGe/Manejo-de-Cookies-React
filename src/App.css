@@ -40,3 +40,10 @@
 .mayus{
   text-transform: capitalize;
 }
+
+.fcolor-white{
+  color: #ffffff!important;
+}
+.space-top{
+  margin-top: 10px;
+}
