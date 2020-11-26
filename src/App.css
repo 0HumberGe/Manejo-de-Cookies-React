@@ -47,3 +47,14 @@
 .space-top{
   margin-top: 10px;
 }
+
+.sh-cook{
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.box-cook{
+  background-color: rgb(102, 102, 102);
+}
