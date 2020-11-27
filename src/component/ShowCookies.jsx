@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bulma/css/bulma.css'
 import '../App.css';
 import Cookies from 'universal-cookie'
-
+import Menu from './Buttons'
 class ShowCookies extends React.Component{
 
     cookies = new Cookies()
@@ -17,7 +17,8 @@ class ShowCookies extends React.Component{
                     <p className="sh-cook box-cook px-4 py-1 mt-1">{this.cookies.get('matricula')}</p>
                     <p className="sh-cook space-top">Clase:</p>
                     <p className="sh-cook box-cook px-4 py-1 mt-1">{this.cookies.get('clase')}</p>
-                </div>    
+                </div>
+                <Menu/>    
             </div>
         )
     }

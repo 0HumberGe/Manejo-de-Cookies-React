@@ -58,3 +58,9 @@
 .box-cook{
   background-color: rgb(102, 102, 102);
 }
+
+.button-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
